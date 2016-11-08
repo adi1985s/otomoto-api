@@ -109,6 +109,11 @@ class otomoto {
         return $json_decoded;
     }
 
+    /**
+     * Metoda wyswietlajaca ogloszenia
+     *
+     * @param array $ogloszenia
+     */
     public function wyswietl_ogloszenia($ogloszenia)
     {
         $i = 1;
